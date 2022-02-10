@@ -29,6 +29,8 @@ class EmbedExtensionFactory {
 		'ExternalContentFileExtensionWhitelist' => [ 'md' ],
 		'wgExternalContentEnableEmbedFunction' => true,
 		'wgExternalContentEnableBitbucketFunction' => true,
+		'ExternalContentDefaultExpiry' => 86400,
+		'ExternalContentDisableCache' => false,
 	];
 
 	protected static ?self $instance;
